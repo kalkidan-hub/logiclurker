@@ -67,13 +67,13 @@
         <div class="card">
             <h1>ZAP Active Scan Report</h1>
             <div class="muted">Target: http://juice-shop.herokuapp.com/</div>
-            <div class="muted">Generated: 2026-04-13 13:11:03</div>
+            <div class="muted">Generated: 2026-11-19 13:36:04</div>
             <div class="stats">
-                <div class="stat">Total: 18</div>
+                <div class="stat">Total: 4</div>
                 <div class="stat">High: 0</div>
-                <div class="stat">Medium: 4</div>
-                <div class="stat">Low: 11</div>
-                <div class="stat">Informational: 3</div>
+                <div class="stat">Medium: 2</div>
+                <div class="stat">Low: 2</div>
+                <div class="stat">Informational: 0</div>
                 <div class="stat">Unknown: 0</div>
             </div>
         </div>
@@ -100,7 +100,7 @@
                             <td><span class="risk-badge risk-medium">Medium</span></td>
                             <td>Content Security Policy (CSP) Header Not Set</td>
                             <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit</a></td>
+                            <td><a href="http://juice-shop.herokuapp.com/" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/</a></td>
                             <td></td>
                             <td>693</td>
                             <td>High</td>
@@ -114,35 +114,7 @@
                             <td><span class="risk-badge risk-low">Low</span></td>
                             <td>Timestamp Disclosure - Unix</td>
                             <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit</a></td>
-                            <td>Reporting-Endpoints</td>
-                            <td>497</td>
-                            <td>Low</td>
-                            <td>A timestamp was disclosed by the application/web server. - Unix</td>
-                            <td>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</td>
-                            <td>https://cwe.mitre.org/data/definitions/200.html</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-low">Low</span></td>
-                            <td>Timestamp Disclosure - Unix</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit</a></td>
-                            <td>Reporting-Endpoints</td>
-                            <td>497</td>
-                            <td>Low</td>
-                            <td>A timestamp was disclosed by the application/web server. - Unix</td>
-                            <td>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</td>
-                            <td>https://cwe.mitre.org/data/definitions/200.html</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-low">Low</span></td>
-                            <td>Timestamp Disclosure - Unix</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit</a></td>
+                            <td><a href="http://juice-shop.herokuapp.com/" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/</a></td>
                             <td>Reporting-Endpoints</td>
                             <td>497</td>
                             <td>Low</td>
@@ -156,7 +128,7 @@
                             <td><span class="risk-badge risk-medium">Medium</span></td>
                             <td>Content Security Policy (CSP) Header Not Set</td>
                             <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/</a></td>
+                            <td><a href="http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit</a></td>
                             <td></td>
                             <td>693</td>
                             <td>High</td>
@@ -167,118 +139,6 @@
                         
 
                         <tr>
-                            <td><span class="risk-badge risk-medium">Medium</span></td>
-                            <td>Cross-Domain Misconfiguration</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/</a></td>
-                            <td></td>
-                            <td>264</td>
-                            <td>Medium</td>
-                            <td>Web browser data loading may be possible, due to a Cross Origin Resource Sharing (CORS) misconfiguration on the web server.</td>
-                            <td>Ensure that sensitive data is not available in an unauthenticated manner (using IP address white-listing, for instance).<br>Configure the &quot;Access-Control-Allow-Origin&quot; HTTP header to a more restrictive set of domains, or remove all CORS headers entirely, to allow the web browser to enforce the Same Origin Policy (SOP) in a more restrictive manner.</td>
-                            <td>https://vulncat.fortify.com/en/detail?category=HTML5&amp;subcategory=Overly%20Permissive%20CORS%20Policy</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-info">Informational</span></td>
-                            <td>Modern Web Application</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/</a></td>
-                            <td></td>
-                            <td>-1</td>
-                            <td>Medium</td>
-                            <td>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</td>
-                            <td>This is an informational alert and so no changes are required.</td>
-                            <td></td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-low">Low</span></td>
-                            <td>Timestamp Disclosure - Unix</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/</a></td>
-                            <td>Reporting-Endpoints</td>
-                            <td>497</td>
-                            <td>Low</td>
-                            <td>A timestamp was disclosed by the application/web server. - Unix</td>
-                            <td>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</td>
-                            <td>https://cwe.mitre.org/data/definitions/200.html</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-medium">Medium</span></td>
-                            <td>Cross-Domain Misconfiguration</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit</a></td>
-                            <td></td>
-                            <td>264</td>
-                            <td>Medium</td>
-                            <td>Web browser data loading may be possible, due to a Cross Origin Resource Sharing (CORS) misconfiguration on the web server.</td>
-                            <td>Ensure that sensitive data is not available in an unauthenticated manner (using IP address white-listing, for instance).<br>Configure the &quot;Access-Control-Allow-Origin&quot; HTTP header to a more restrictive set of domains, or remove all CORS headers entirely, to allow the web browser to enforce the Same Origin Policy (SOP) in a more restrictive manner.</td>
-                            <td>https://vulncat.fortify.com/en/detail?category=HTML5&amp;subcategory=Overly%20Permissive%20CORS%20Policy</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-low">Low</span></td>
-                            <td>Timestamp Disclosure - Unix</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/</a></td>
-                            <td></td>
-                            <td>497</td>
-                            <td>Low</td>
-                            <td>A timestamp was disclosed by the application/web server. - Unix</td>
-                            <td>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</td>
-                            <td>https://cwe.mitre.org/data/definitions/200.html</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-low">Low</span></td>
-                            <td>Timestamp Disclosure - Unix</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/</a></td>
-                            <td></td>
-                            <td>497</td>
-                            <td>Low</td>
-                            <td>A timestamp was disclosed by the application/web server. - Unix</td>
-                            <td>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</td>
-                            <td>https://cwe.mitre.org/data/definitions/200.html</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-low">Low</span></td>
-                            <td>Timestamp Disclosure - Unix</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/</a></td>
-                            <td></td>
-                            <td>497</td>
-                            <td>Low</td>
-                            <td>A timestamp was disclosed by the application/web server. - Unix</td>
-                            <td>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</td>
-                            <td>https://cwe.mitre.org/data/definitions/200.html</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-info">Informational</span></td>
-                            <td>Modern Web Application</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit</a></td>
-                            <td></td>
-                            <td>-1</td>
-                            <td>Medium</td>
-                            <td>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</td>
-                            <td>This is an informational alert and so no changes are required.</td>
-                            <td></td>
-                        </tr>
-                        
-
-                        <tr>
                             <td><span class="risk-badge risk-low">Low</span></td>
                             <td>Timestamp Disclosure - Unix</td>
                             <td>GET</td>
@@ -289,62 +149,6 @@
                             <td>A timestamp was disclosed by the application/web server. - Unix</td>
                             <td>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</td>
                             <td>https://cwe.mitre.org/data/definitions/200.html</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-low">Low</span></td>
-                            <td>Timestamp Disclosure - Unix</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit</a></td>
-                            <td></td>
-                            <td>497</td>
-                            <td>Low</td>
-                            <td>A timestamp was disclosed by the application/web server. - Unix</td>
-                            <td>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</td>
-                            <td>https://cwe.mitre.org/data/definitions/200.html</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-low">Low</span></td>
-                            <td>Timestamp Disclosure - Unix</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit</a></td>
-                            <td></td>
-                            <td>497</td>
-                            <td>Low</td>
-                            <td>A timestamp was disclosed by the application/web server. - Unix</td>
-                            <td>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</td>
-                            <td>https://cwe.mitre.org/data/definitions/200.html</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-low">Low</span></td>
-                            <td>Timestamp Disclosure - Unix</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit</a></td>
-                            <td></td>
-                            <td>497</td>
-                            <td>Low</td>
-                            <td>A timestamp was disclosed by the application/web server. - Unix</td>
-                            <td>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</td>
-                            <td>https://cwe.mitre.org/data/definitions/200.html</td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><span class="risk-badge risk-info">Informational</span></td>
-                            <td>User Controllable HTML Element Attribute (Potential XSS)</td>
-                            <td>GET</td>
-                            <td><a href="http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit" target="_blank" rel="noopener noreferrer">http://juice-shop.herokuapp.com/?id=1&amp;Submit=Submit</a></td>
-                            <td>id</td>
-                            <td>20</td>
-                            <td>Low</td>
-                            <td>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</td>
-                            <td>Validate all input and sanitize output it before writing to any HTML attributes.</td>
-                            <td>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</td>
                         </tr>
                         
                 </tbody>

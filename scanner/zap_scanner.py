@@ -67,7 +67,7 @@ def launch_zap_and_scan(target_url: str) -> str:
         ) from exc
 
     # Wait for ZAP to be ready
-    zap = ZAPv2(apikey="mt7qkr8arskpqul1q9f6ul41f5", proxies={"http": "http://127.0.0.1:8090"})
+    zap = ZAPv2(apikey="hbnfm73jvdak5sgq99kh638fnb", proxies={"http": "http://127.0.0.1:8080"})
     _wait_for_zap(zap)
 
     try:
